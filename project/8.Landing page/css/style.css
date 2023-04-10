@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Ubuntu+Mono&display=swap');
+
+/* font-family: 'New Tegomin', serif;
+font-family: 'Ubuntu Mono', monospace; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'New Tegomin', serif;
+    font-weight: bolder;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.logo {
+    font-size: 1.4rem;
+}
+
+.section1 {
+    max-height: 100vh;
+
+}
+
+.topleft {
+    width: 50%;
+    padding: 12px 0;
+    /* height: 50vh; */
+}
+.topleft h1{
+    color: #ff4802;
+}
+.topleft p{
+    color: #244065;
+}
+
+.section1 h1 {
+    font-size: 2rem;
+}
+
+.dumbbelleimg {
+    width: 289px;
+}
+
+.gymimg {
+    width: 600px;
+
+}
+
+.topright {
+    width: 50%;
+    /* height: 50vh; */
+}
+
+.section2 {
+    padding: 33px 0 70px 0;
+}
+
+.section2 h1 {
+    font-size: 3rem;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box {
+    margin: 12px 22px;
+    min-width: 21vw;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box ul li {
+    margin: 10px 2px;
+}
+
+.section3{
+    width: 80vw;
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+.section3 h1 {
+    font-size: 3rem;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin: 23px 0 140px 0;
+}
+.section3 table th{
+    width: 6vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+    
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+
